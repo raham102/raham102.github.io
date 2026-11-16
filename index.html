@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahma Medhat | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="#hero" class="logo">RAHMA.EXE</a>
+        <ul class="nav-links">
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#projects">Quests</a></li>
+            <li><a href="#skills">Stats</a></li>
+            <li><a href="#experience">Levels</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="hero">
+        <p class="hero-small">PLAYER 1</p>
+        <h1>Rahma Medhat</h1>
+        <p class="tagline">IT Graduate · Web · Data · Security</p>
+        <a href="#about" class="pixel-btn">PRESS START</a>
+    </section>
+
+    <section id="about">
+    <h2>&gt; PLAYER PROFILE</h2>
+
+    <div class="profile-card">
+       <img src="assets/computer.gif" alt="Pixel art desktop computer" class="pixel-img">
+        <div class="profile-info">
+            <p><span class="label">Name:</span> Rahma Medhat</p>
+<p><span class="label">Major:</span> Information Technology</p>
+<p><span class="label">University:</span> Arab Open University, Bahrain</p>
+<p><span class="label">Location:</span> Muharraq, Bahrain</p>
+<p><span class="label">Award:</span> Academic Excellence Award 2024/25</p>
+<p class="bio">IT graduate with hands-on experience from an internship at Bahrain's Information &amp; eGovernment Authority. I build data dashboards and security tools, from a Power BI crane-monitoring project with ALBA to a machine-learning scam link checker.</p>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <h2>&gt; QUEST LOG</h2>
+
+    <div class="filters">
+    <button class="filter-btn active" data-filter="all">ALL</button>
+    <button class="filter-btn" data-filter="data">DATA</button>
+    <button class="filter-btn" data-filter="security">SECURITY</button>
+    </div>
+
+    <div class="quest-grid">
+        <article class="quest-card" data-category="data">
+            <img src="assets/dashboard.png" alt="Overview page of the crane monitoring dashboard" class="quest-img">
+    <p class="quest-number">QUEST 01 · COMPLETED</p>
+    <h3>ALBA Crane Monitoring Dashboard</h3>
+    <p>My graduation project with ALBA: a five-page Power BI dashboard tracking downtime, alerts, maintenance and operator activity across PTM cranes, with a forecast page for proactive maintenance planning. Built on mock data.</p>
+    <ul class="tags">
+        <li>Power BI</li>
+        <li>DAX</li>
+        <li>Excel</li>
+        <li>Data Modelling</li>
+        <li>Forecasting</li>
+    </ul>
+</article>
+
+<article class="quest-card" data-category="security">
+    <p class="quest-number">QUEST 02 · COMPLETED</p>
+    <h3>Bahrain Scam Link Checker</h3>
+    <p>Paste any link and get an instant verdict: safe, suspicious, or scam. A machine-learning model analyses the domain to catch fake sites impersonating official Bahraini government services. Deployed live for anyone to use.</p>
+    <ul class="tags">
+        <li>Python</li>
+        <li>FastAPI</li>
+        <li>scikit-learn</li>
+        <li>pandas</li>
+        <li>WHOIS</li>
+        <li>Render</li>
+    </ul>
+    <div class="quest-links">
+        <a href="https://bahrain-scam-link-checker.onrender.com" target="_blank" rel="noopener">▶ PLAY</a>
+        <a href="https://github.com/raham102/bahrain-scam-link-checker" target="_blank" rel="noopener">&lt;/&gt; CODE</a>
+    </div>
+</article>
+    </div>
+</section>
+<section id="skills">
+    <h2>&gt; STATS</h2>
+
+    <div class="stats">
+        <div class="stat">
+            <p class="stat-name">Power BI</p>
+            <div class="stat-bar"><div class="stat-fill" data-level="80"></div></div>
+        </div>
+        <div class="stat">
+            <p class="stat-name">Python</p>
+            <div class="stat-bar"><div class="stat-fill" data-level="70"></div></div>
+        </div>
+    </div>
+</section>
+<section id="experience">
+    <h2>&gt; LEVELS</h2>
+
+    <ol class="levels">
+        <li class="level">
+    <p class="level-date">2022 – 2026</p>
+    <h3>BSc (Hons) Information Technology and Computing</h3>
+    <p class="level-place">Arab Open University, Bahrain</p>
+    <p>Covered programming in Python and Java, algorithms and data structures, data management and analysis, software engineering, and communications technology.</p>
+</li>
+<li class="level">
+    <p class="level-date">OCT – DEC 2025</p>
+    <h3>Industrial Trainee</h3>
+    <p class="level-place">Information &amp; eGovernment Authority · Innovation &amp; Advanced Technologies</p>
+    <p>Completed a 200-hour placement gathering and validating system requirements, preparing test cases, and documenting workflows and functional specifications. Also analysed system performance and presented findings in executive overview presentations.</p>
+</li>
+        <li class="level">
+            <p class="level-date">OCT 2025</p>
+            <h3>Academic Excellence Award</h3>
+            <p class="level-place">Arab Open University, Bahrain</p>
+            <p>Ranked 12th among bachelor's students, 2024/2025.</p>
+        </li>
+
+        <li class="level">
+            <p class="level-date">MAY 2026</p>
+            <h3>Graduation Project with ALBA</h3>
+            <p class="level-place">AOU Bahrain Career Day</p>
+            <p>Presented the crane monitoring dashboard.</p>
+        </li>
+        <li class="level">
+    <p class="level-date">NOV 2026</p>
+    <h3>Bahrain Scam Link Checker</h3>
+    <p class="level-place">Personal Project</p>
+    <p>Built and deployed a machine-learning tool that flags links impersonating official Bahraini websites.</p>
+</li>
+    </ol>
+</section>
+<section id="contact">
+    <svg class="pixel-heart" viewBox="0 0 7 6" shape-rendering="crispEdges" aria-hidden="true">
+        <path d="M1 0h2v1h-2z M4 0h2v1h-2z M0 1h7v2h-7z M1 3h5v1h-5z M2 4h3v1h-3z M3 5h1v1h-1z"/>
+    </svg>
+
+    <h2>CONTINUE?</h2>
+    <p>Want to work together or just say hi? Pick a channel.</p>
+
+    <div class="contact-links">
+       <button class="pixel-btn" id="copy-email" data-email="rahmamedhat790@gmail.com">EMAIL</button>
+        <a href="https://www.linkedin.com/in/rahma-medhat" target="_blank" rel="noopener" class="pixel-btn">LINKEDIN</a>
+        <a href="https://github.com/raham102" target="_blank" rel="noopener" class="pixel-btn">GITHUB</a>
+    </div>
+</section>
+</main>
+<footer>
+    <p>© 2026 Rahma Medhat · Built from scratch with HTML, CSS &amp; JavaScript</p>
+</footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
